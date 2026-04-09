@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment secrets
+.env
+
+# Data (don't commit raw docs or vector DB)
+data/raw/*
+data/qdrant_db/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Logs
+logs/
+*.log
+
+# Models (too large for git — use git-lfs or download separately)
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage

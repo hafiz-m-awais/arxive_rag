@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What is the main topic of this document?",
+    "ground_truth": "Replace this with the actual expected answer for your documents."
+  },
+  {
+    "question": "Summarize the key findings.",
+    "ground_truth": "Replace this with the actual expected answer for your documents."
+  },
+  {
+    "question": "What recommendations are made?",
+    "ground_truth": "Replace this with the actual expected answer for your documents."
+  }
+]
