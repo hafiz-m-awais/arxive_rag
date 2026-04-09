@@ -9,7 +9,7 @@ build/
 .venv/
 venv/
 env/
-
+scripts\git_setup.sh
 # Environment secrets
 .env
 
