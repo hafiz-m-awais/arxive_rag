@@ -35,7 +35,7 @@ def setup():
     # 4. Verify Ollama
     try:
         import ollama
-        models = [m.model for m in ollama.list().models]
+        models = [m.model for m in ollama.list().models if m.model is not None]
         if config.OLLAMA_MODEL in models or any(config.OLLAMA_MODEL in m for m in models):
             logger.info(f"Ollama model '{config.OLLAMA_MODEL}' is available")
         else:
